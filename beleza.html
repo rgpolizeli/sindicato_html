@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="./img/brand.png"/>
+<link rel="stylesheet" href="./main.css">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel='stylesheet'>
+</head>
+<body>
+
+  <nav>
+    <div id="nav_toggle" class="nav_toggle" onclick="openNav()">
+      <svg id="nav_toggle_icon" class="nav_toggle_icon">
+        <rect y="0" width="20" height="1"></rect>
+        <rect y="8" width="20" height="1"></rect>
+        <rect y="17" width="20" height="1"></rect>
+    </svg>
+    </div>
+    <ul>
+      <li>
+      <a href="./">INÍCIO</a>
+      </li>
+      <li>
+      <a href="./beneficios.html">BENEFÍCIOS</a>
+      </li>
+      <li>
+      <a href="./juridico.html">JURÍDICO</a>
+      </li>
+      <li>
+      <a href="./servicos.html">SERVIÇOS</a>
+      </li>
+      <li>
+      <a href="./contatos.html">CONTATOS</a>
+      </li>
+      <li>
+      <a class="button_filiate" href="./filiacao.html">AFILIE-SE</a>
+      </li>
+    </ul>
+  </nav>
+  
+  <div id="sidenav" class="sidenav">
+    <a class="sidenav_a sidenav_closebtn" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="sidenav_a" href="./">INÍCIO</a>
+    <a class="sidenav_a" href="./beneficios.html">BENEFÍCIOS</a>
+    <a class="sidenav_a" href="./juridico.html">JURÍDICO</a>
+    <a class="sidenav_a" href="./servicos.html">SERVIÇOS</a>
+    <a class="sidenav_a" href="./contatos.html">CONTATOS</a>
+    <a class="sidenav_a" href="./filiacao.html">AFILIE-SE</a>
+  </div>
+
+<section class="header" style="background-image: linear-gradient(rgba(52, 52, 52, 0.2), rgba(52, 52, 52, 0.2)), url('./img/beleza/beleza-5.jpg');">
+  <div class="header_centralized_content">
+      <h1>SALÃO DE BELEZA</h1>
+      <h2>Saiba tudo sobre os serviços oferecidos no salão de beleza do Sindicato dos Motoristas</h2>
+  </div>
+</section>
+
+<section class="section_centralized">
+  <div class="div_title_subtitle_text">
+    <h1>Estética, facial e corporal</h1>
+    <h2>Tudo para sua beleza</h2>
+    <div class="gallery" style="background-image: url('./img/beleza/beleza-1.jpg');">
+      <div class="gallery_content">
+        <div class="gallery_button" onclick="onNextClicked()">></div>
+        <div class="gallery_button" onclick="onPreviousClicked()"><</div>
+      </div>
+    </div>
+    <div class="div_title_subtitle_text_text">
+    <p>Pensando também na beleza estética, facial e corporal, além dos outros benefícios já oferecidos nas áreas de saúde, lazer entre dezenas de outros, criamos agora o CENTRO DE BELEZA DA FAMÍLIA RODOVIÁRIA, dando condições para que todos possam participar de um salão de beleza.</p>
+    <p>A beleza, seja ela interna ou externa, é de fundamental importância para saúde do ser humano,a beleza muda seu jeito de enxergar a vida, seja ela profissional ou pessoal, as pessoas que se sentem bem consigo mesma, são mais educadas, cautelosas, refinadas, calorosas e acima de tudo são bonitas.</p>
+    <p>Atendimento diário no Salão 180 ( cento e oitenta) pessoas dia, com 08 (oito) cabeleireiros, 08 (oito ) manicures e pedicures, oferecendo:</p>
+    <p>>>Cortes<br>
+    >> Hidratação<br>
+    >> Escova<br>
+    >> Relaxamento<br>
+    >> Progressiva<br>
+    >> Luzes<br>
+    >> Coloração<br>
+    >> Depilação<br>
+    >> Manicure/Pedicure<br>
+    >> Massagem Lombar<br>
+    >> Tratamento com Argila (rosto)<br>
+    >> Body up (levanta bumbum)<br>
+    >> Redução de medidas<br>
+    >> Pacote de Body Up ou Redução (5 sessões)
+    </p>
+	</div>
+</section>
+
+<footer>
+  <p>© 2021 - Sindicato dos Condutores de São José do Rio Preto</p>
+  <div>
+  <a href="#"><img src="./icones/facebook.svg" style="width:3rem; height:3rem;"/></a>
+  <a href="#"><img src="./icones/instagram.svg" style="width:3rem; height:3rem;"/></a>
+  <a href="#"><img src="./icones/twitter.svg" style="width:3rem;height:3rem;"/></a>
+  <a href="#"><img src="./icones/youtube play.svg" style="width:3rem;height:3rem;"/></a>
+  </div>
+</footer>
+
+<script type="text/javascript" src="./scripts/sidenav.js"></script>
+<script type="text/javascript" src="./scripts/navbar.js"></script>
+<script>
+const data = {
+  images: [
+    "./img/beleza/beleza-1.jpg",
+    "./img/beleza/beleza-2.jpg",
+    "./img/beleza/beleza-3.jpg",
+    "./img/beleza/beleza-4.jpg",
+    "./img/beleza/beleza-5.jpg",
+    "./img/beleza/beleza-6.jpg",
+    "./img/beleza/beleza-7.jpg"
+  ],
+  index: 0
+}</script>
+<script type="module" src="./scripts/headerGallery.js"></script>
+<script nomodule src="./scripts/noModuleHeaderGallery.js"></script>
+
+</body>
+</html>
