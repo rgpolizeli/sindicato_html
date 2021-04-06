@@ -11,6 +11,13 @@
   <body>
 
     <nav>
+      <div id="nav_toggle" class="nav_toggle" onclick="openNav()">
+        <svg id="nav_toggle_icon" class="nav_toggle_icon">
+          <rect y="0" width="20" height="1"></rect>
+          <rect y="8" width="20" height="1"></rect>
+          <rect y="17" width="20" height="1"></rect>
+      </svg>
+      </div>
       <ul>
         <li>
         <a href="./">INÍCIO</a>
@@ -32,11 +39,21 @@
         </li>
       </ul>
     </nav>
+    
+    <div id="sidenav" class="sidenav">
+      <a class="sidenav_a sidenav_closebtn" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="sidenav_a" href="./">INÍCIO</a>
+      <a class="sidenav_a" href="./beneficios.html">BENEFÍCIOS</a>
+      <a class="sidenav_a" href="./juridico.html">JURÍDICO</a>
+      <a class="sidenav_a" href="./servicos.html">SERVIÇOS</a>
+      <a class="sidenav_a" href="./contatos.html">CONTATOS</a>
+      <a class="sidenav_a" href="./filiacao.html">AFILIE-SE</a>
+    </div>
 
 <section class="header" style="background-image: linear-gradient(rgba(52, 52, 52, 0.2), rgba(52, 52, 52, 0.2)), url('./img/beneficios.jpg')">
     <div class="header_centralized_content">
       <h1>BENEFÍCIOS</h1>
-  		<h2>O Sindicato dos Motoristas proporciona aos seus associados muitos benefícios em um só lugar</h2>
+  		<h2>Proporcionamos muitas vantagens aos nossos associados</h2>
   	</div>
   </section>
 
@@ -177,6 +194,7 @@
   </div>
 </footer>
 
-    <script type="module" src="./scripts/navbar.js"></script>
+<script type="text/javascript" src="./scripts/sidenav.js"></script>
+<script type="module" src="./scripts/navbar.js"></script>
   </body>
 </html>
