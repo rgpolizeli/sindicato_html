@@ -11,13 +11,6 @@
   <body>
 
     <nav>
-      <div id="nav_toggle" class="nav_toggle" onclick="openNav()">
-        <svg id="nav_toggle_icon" class="nav_toggle_icon">
-          <rect y="0" width="20" height="1"></rect>
-          <rect y="8" width="20" height="1"></rect>
-          <rect y="17" width="20" height="1"></rect>
-      </svg>
-      </div>
       <ul>
         <li>
         <a href="./">INÍCIO</a>
@@ -35,23 +28,12 @@
         <a href="./contatos.html">CONTATOS</a>
         </li>
         <li>
-        <a class="button_filiate" href="./filiacao.html">AFILIE-SE</a>
+        <a class="tab_filiate" href="./filiacao.html">AFILIE-SE</a>
         </li>
       </ul>
     </nav>
-    
-    <div id="sidenav" class="sidenav">
-      <a class="sidenav_a sidenav_closebtn" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a class="sidenav_a" href="./">INÍCIO</a>
-      <a class="sidenav_a" href="./beneficios.html">BENEFÍCIOS</a>
-      <a class="sidenav_a" href="./juridico.html">JURÍDICO</a>
-      <a class="sidenav_a" href="./servicos.html">SERVIÇOS</a>
-      <a class="sidenav_a" href="./contatos.html">CONTATOS</a>
-      <a class="sidenav_a" href="./filiacao.html">AFILIE-SE</a>
-    </div>
-    
 
-<section class="header" style="background-image: linear-gradient(rgba(52, 52, 52, 0.2), rgba(52, 52, 52, 0.2)), url('./img/saude.jpg');">
+<section class="header" style="background-image: linear-gradient(rgba(52, 52, 52, 0.2), rgba(52, 52, 52, 0.2)), url('./img/saude.jpg')">
     <div class="header_centralized_content">
       <h1>SAÚDE</h1>
   		<h2>Bem-estar e qualidade de vida exclusiva para os Associados e seus dependentes</h2>
@@ -123,100 +105,82 @@
 			</div>
     </div>
 
-    <div id="tab_menu_content" class="section_centralized" index="0" style="display:block;">
-      
-      <div class="div_title_subtitle_text">
-        <h1>MEDICINA</h1>
-        <div class="div_title_subtitle_text_text">
-          <p><b>Consultas</b></p>
-          <p>Oferecemos consultas médicas dentro do sindicato, com agendamento e custo zero.<p>
-          <p>Especialidades Médicas ofertadas a custo zero:</p>
-          <p>>> Clínica Médica<br>
-          >> Cardiologia<br>
-          >> Ginecologia<br>
-          >> Pediatria<br>
-          >> Gastroenterologia<br>
-          >> Oftalmologia<br>
-          >> Urologia<br>
-          >> Ortopedia<br></p>
-          <p>Também oferecemos consultas com estas outras especialidades a valores acessíveis:</p>
-          <p>>> Cirurgia Vascular<br>
-          >> Dermatologia<br>
-          >> Endocrinologia<br>
-          >> Hematologia<br>
-          >> Homeopatia<br>
-          >> Neurologia<br>
-          >> Nutricionista<br>
-          >> Otorrinolaringologia<br>
-          >> Pneumologia<br>
-          >> Psiquiatria<br>
-          >> Reumatologia<br>
-          >> Infectologista<br>
-          </p>
-          <p><b>Exames</b></p>
-          <p>Oferecemos Exame de Eletrocardiograma  com custo zero.</p>
-          <p>Convênios com Clínicas para realização de exames (tabela amb):</p>
-          <p>>> Radiodiagnóstico<br>
-            >> Ultrassonografia<br>
-            >> Tomografia Computadorizada<br>
-            >> Ressonância Magnética<br>
-            >> Exames Laboratoriais<br>
-            >> Endoscopia Digestiva Alta<br>
-            >> Colonoscopia<br>
-            >> Mamografia<br>
-          </p>
-          <p>Clínicas Conveniadas:</p>
-          <p>>> Instituto de Hematologia de S.J. Rio Preto Ltda<br>
-            >> Laborclin Laboratório Análises e  Cito Hispat. Ltda<br>
-            >> Centro de Avaliação Materno Fetal (CAMF)<br>
-            >> Unidade de Medicina Avançada Rio Preto Ltda (UMA)<br>
-            >> Ciapac – Centro Integrado Anat. Patologia e Citop. Ltda<br>
-            >> Braile<br>
-            >> Instituto de Radiodiagnóstico Rio Preto Ltda (ULTRA-X)<br>
-            >> Allcorp<br>
-            >> Unifísio – Clínica de Fisioterapia<br>
-            >> Centro de Endoscopia Rio Preto Ltda<br>
-          </p>
-        </div>
-      </div>
+    <div class="tab_menu_content" index="0" style="display:block;">
+      <h1>CONSULTAS</h1>
+			<p>Oferecemos consultas médicas dentro do sindicato, com agendamento e custo zero.<p>
+      <p>Especialidades Médicas ofertadas a custo zero:</p>
+      <p>>> Clínica Médica<br>
+      >> Cardiologia<br>
+      >> Ginecologia<br>
+      >> Pediatria<br>
+      >> Gastroenterologia<br>
+      >> Oftalmologia<br>
+      >> Urologia<br>
+      >> Ortopedia<br></p>
+      <p>Também oferecemos consultas com estas outras especialidades a valores acessíveis:</p>
+      <p>>> Cirurgia Vascular<br>
+      >> Dermatologia<br>
+      >> Endocrinologia<br>
+      >> Hematologia<br>
+      >> Homeopatia<br>
+      >> Neurologia<br>
+      >> Nutricionista<br>
+      >> Otorrinolaringologia<br>
+      >> Pneumologia<br>
+      >> Psiquiatria<br>
+      >> Reumatologia<br>
+      >> Infectologista<br>
+      </p>
+      <h1>EXAMES</h1>
+      <p>Oferecemos Exame de Eletrocardiograma  com custo zero.</p>
+      <p>Convênios com Clínicas para realização de exames (tabela amb):</p>
+      <p>>> Radiodiagnóstico<br>
+        >> Ultrassonografia<br>
+        >> Tomografia Computadorizada<br>
+        >> Ressonância Magnética<br>
+        >> Exames Laboratoriais<br>
+        >> Endoscopia Digestiva Alta<br>
+        >> Colonoscopia<br>
+        >> Mamografia<br>
+      </p>
+      <p>Clínicas Conveniadas:</p>
+      <p>>> Instituto de Hematologia de S.J. Rio Preto Ltda<br>
+        >> Laborclin Laboratório Análises e  Cito Hispat. Ltda<br>
+        >> Centro de Avaliação Materno Fetal (CAMF)<br>
+        >> Unidade de Medicina Avançada Rio Preto Ltda (UMA)<br>
+        >> Ciapac – Centro Integrado Anat. Patologia e Citop. Ltda<br>
+        >> Braile<br>
+        >> Instituto de Radiodiagnóstico Rio Preto Ltda (ULTRA-X)<br>
+        >> Allcorp<br>
+        >> Unifísio – Clínica de Fisioterapia<br>
+        >> Centro de Endoscopia Rio Preto Ltda<br>
+      </p>
     </div>
-
-    <div id="tab_menu_content" class="section_centralized" index="1" style="display:none;">
-      <div class="div_title_subtitle_text">
-        <h1>ODONTOLOGIA</h1>
-        <div class="div_title_subtitle_text_text">
-          <p>Contamos com três consultórios dentários, com oito profissionais especializados. Trabalhamos com horário marcado.</p>
-          <p>Procedimentos realizados a custo zero:</p>
-          <p>
-            >> Restauração<br>
-            >> Profilaxia com aplicação de flúor<br>
-            >> Raspagem<br>
-            >> Exodontia de acordo com a avaliação do profissional<br>
-            >> Pulpectomia<br>
-            >> Selante<br>
-            >> Radiografias Periapicais.<br>
-          </p>
-          <p>Convênios:</p>
-          <p>
-            >> Ortodent<br>
-            >> DVI<br>
-          </p>
-        </div>
-      </div>
-    </div>
-    
-    <div id="tab_menu_content" class="section_centralized" index="2" style="display:none;">
-      <div class="div_title_subtitle_text">
-        <h1>MAIS</h1>
-        <div class="div_title_subtitle_text_text">
-          <p><b>PSICOLOGIA</b></p>
-          <p>Oferecemos atendimento Psicológico com custo zero.</p>
-          <p><b>ÓTICA</b></p>
-          <p>Vários modelos de óculos.</p>
-        </div>
-      </div>
-    </div>
-
+    <div class="tab_menu_content" index="1" style="display:none;">
+      <h1>ODONTOLOGIA</h1>
+			<p>Contamos com três consultórios dentários, com oito profissionais especializados. Trabalhamos com horário marcado.</p>
+      <p>Procedimentos realizados a custo zero:</p>
+      <p>
+        >> Restauração<br>
+        >> Profilaxia com aplicação de flúor<br>
+        >> Raspagem<br>
+        >> Exodontia de acordo com a avaliação do profissional<br>
+        >> Pulpectomia<br>
+        >> Selante<br>
+        >> Radiografias Periapicais.<br>
+      </p>
+      <p>Convênios:</p>
+      <p>
+        >> Ortodent<br>
+        >> DVI<br>
+      </p>
+  </div>
+  <div class="tab_menu_content" index="2" style="display:none;">
+    <h1>PSICOLOGIA</h1>
+    <p>Oferecemos atendimento Psicológico com custo zero.</p>
+    <h1>ÓTICA</h1>
+    <p>Vários modelos de óculos.</p>
+</div>
 </section>
 
 <footer>
@@ -229,8 +193,7 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="./scripts/sidenav.js"></script>
-<script type="text/javascript" src="./scripts/navbar.js"></script>
-<script type="text/javascript" src="./scripts/tabmenu.js"></script>
-</body>
+    <script type="module" src="./scripts/navbar.js"></script>
+    <script type="module" src="./scripts/tabmenu.js"></script>
+  </body>
 </html>
